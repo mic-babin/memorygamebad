@@ -22,6 +22,8 @@
     11.BLOG
 		12.CONTACT
 		13.LOGOS
+		14. PORTFOLIO
+		15. LANGUAGE
 
 
 
@@ -3505,13 +3507,24 @@ only screen and (min-width: 992px) and (max-width: 1200px),
 	transform: scale(1.1)
 }
 
+@media only screen and (max-width: 992px) {
+	#logo_main_img {
+		height: 75px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	#logo_main_img {
+		height: 50px;
+	}
+}
+
 /* 14. Portfolio */
 
 .items {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 1rem;
-
 }
 
 .item-grid {
@@ -3611,6 +3624,18 @@ only screen and (min-width: 992px) and (max-width: 1200px),
 	font-size: 1.3rem;
 	opacity: 1;
 	margin: 0;
+}
+
+@media only screen and (max-width: 992px) {
+	.items {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.items {
+		grid-template-columns: repeat(1, 1fr);
+	}
 }
 
 /* 15. Language */
