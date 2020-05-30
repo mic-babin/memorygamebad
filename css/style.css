@@ -2112,6 +2112,24 @@ body.search-is-visible {
 	transform: rotate(25deg);
 }
 
+.slide-img-1 {
+	background: url('../img/slide-01.jpg');
+}
+
+.slide-img-2 {
+	background: url('../img/slide-02.jpg');
+}
+
+@media screen and (max-width: 450px) {
+	.slide-img-1 {
+		background: url('../img/bgsm01.jpg');
+	}
+
+	.slide-img-2 {
+		background: url('../img/bgsm02.jpg');
+	}
+}
+
 
 /*======================
         6.SERVICES
@@ -3500,7 +3518,6 @@ only screen and (min-width: 992px) and (max-width: 1200px),
 	height: 100px;
 	filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.1));
 	transition: all .3s ease-in-out;
-
 }
 
 #logo_main_img:hover {
