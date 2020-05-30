@@ -3657,7 +3657,7 @@ only screen and (min-width: 992px) and (max-width: 1200px),
 	}
 }
 
-@media only screen and (max-width: 452px) {
+@media only screen and (max-width: 450px) {
 	.items {
 		grid-template-columns: repeat(1, 1fr);
 	}
